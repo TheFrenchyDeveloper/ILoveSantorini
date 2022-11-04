@@ -12,6 +12,8 @@
 		0AAA59A728FFC99C006CC6A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AAA59A628FFC99C006CC6A6 /* Assets.xcassets */; };
 		0AAA59AA28FFC99C006CC6A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AAA59A928FFC99C006CC6A6 /* Preview Assets.xcassets */; };
 		0ADA2495291517760033AE95 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADA2494291517760033AE95 /* HeaderView.swift */; };
+		0ADA249729151EDB0033AE95 /* BodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADA249629151EDB0033AE95 /* BodyView.swift */; };
+		0ADA24992915211F0033AE95 /* ImagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADA24982915211F0033AE95 /* ImagesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		0AAA59A628FFC99C006CC6A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AAA59A928FFC99C006CC6A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0ADA2494291517760033AE95 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		0ADA249629151EDB0033AE95 /* BodyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyView.swift; sourceTree = "<group>"; };
+		0ADA24982915211F0033AE95 /* ImagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 				0AAA59A228FFC99A006CC6A6 /* ILoveSantoriniApp.swift */,
 				0AAA59A428FFC99A006CC6A6 /* HomeView.swift */,
 				0ADA2494291517760033AE95 /* HeaderView.swift */,
+				0ADA249629151EDB0033AE95 /* BodyView.swift */,
+				0ADA24982915211F0033AE95 /* ImagesView.swift */,
 				0AAA59A628FFC99C006CC6A6 /* Assets.xcassets */,
 				0AAA59A828FFC99C006CC6A6 /* Preview Content */,
 			);
@@ -142,7 +148,9 @@
 			files = (
 				0AAA59A528FFC99A006CC6A6 /* HomeView.swift in Sources */,
 				0ADA2495291517760033AE95 /* HeaderView.swift in Sources */,
+				0ADA249729151EDB0033AE95 /* BodyView.swift in Sources */,
 				0AAA59A328FFC99A006CC6A6 /* ILoveSantoriniApp.swift in Sources */,
+				0ADA24992915211F0033AE95 /* ImagesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

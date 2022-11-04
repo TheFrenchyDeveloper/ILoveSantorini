@@ -12,6 +12,9 @@ struct HomeView: View {
     var body: some View {
         VStack {
             HeaderView()
+            BodyView()
+            Divider()
+                .foregroundColor(Color("blue"))
         }
         .edgesIgnoringSafeArea(.top)
     }
