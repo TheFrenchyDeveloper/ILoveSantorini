@@ -38,6 +38,7 @@ struct BodyView: View {
                     .padding(10)
             }
             .background(.secondary)
+            .frame(height: 250)
             .cornerRadius(20)
             .padding(20)
         }
@@ -47,5 +48,6 @@ struct BodyView: View {
 struct BodyView_Previews: PreviewProvider {
     static var previews: some View {
         BodyView()
+            .previewLayout(.sizeThatFits)
     }
 }

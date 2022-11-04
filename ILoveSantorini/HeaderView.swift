@@ -26,6 +26,7 @@ struct HeaderView: View {
                         .resizable()
                         .frame(width: 75, height: 75)
                 }
+                .padding(EdgeInsets.init(top: 0, leading: 18, bottom: 0, trailing: 18))
                 .offset(y: 40)
             }
             Rectangle()

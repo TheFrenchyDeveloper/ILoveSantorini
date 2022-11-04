@@ -15,6 +15,7 @@ struct HomeView: View {
             BodyView()
             Divider()
                 .foregroundColor(Color("blue"))
+            FooterView()
         }
         .edgesIgnoringSafeArea(.top)
     }
